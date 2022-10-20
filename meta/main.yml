@@ -2,6 +2,7 @@
 
 galaxy_info:
   role_name: retropi_roms
+  namespace: oxivanisher
   author: Marc Urben
   description: Please fill me out at some point in time
   company: Thunderbluff
