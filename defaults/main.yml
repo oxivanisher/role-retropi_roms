@@ -1,4 +1,3 @@
 ---
-
 retropi_user: pi
 retropi_roms_location: "/home/{{ retropi_user }}/RetroPie/roms"

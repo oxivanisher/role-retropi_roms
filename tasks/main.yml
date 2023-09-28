@@ -1,12 +1,8 @@
 ---
-
-- name: deploy game roms
+- name: Deploy game roms
   ansible.builtin.copy:
-    src: "{{ item }}"
+    src: "{{ playbook_dir }}/files/retropi_roms/"
     dest: "{{ retropi_roms_location }}"
     owner: "{{ retropi_user }}"
     group: "{{ retropi_user }}"
-    mode: 0644
-  loop:
-    - nes
-    - snes
+    mode: "0644"
