@@ -6,3 +6,5 @@
     owner: "{{ retropi_user }}"
     group: "{{ retropi_user }}"
     mode: "0644"
+  become: true
+  become_user: "{{ retropi_user }}"
