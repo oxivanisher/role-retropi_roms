@@ -1,3 +1,4 @@
 ---
-retropi_user: pi
-retropi_roms_location: "/home/{{ retropi_user }}/RetroPie/roms"
+retropi_roms_user: pi
+retropi_roms_source_location: "{{ playbook_dir }}/files/retropi_roms/"
+retropi_roms_target_location: "/home/{{ retropi_roms_user }}/RetroPie/roms"

@@ -3,8 +3,8 @@
   ansible.builtin.copy:
     src: "{{ playbook_dir }}/files/retropi_roms/"
     dest: "{{ retropi_roms_location }}"
-    owner: "{{ retropi_user }}"
-    group: "{{ retropi_user }}"
+    owner: "{{ retropi_roms_user }}"
+    group: "{{ retropi_roms_user }}"
     mode: "0644"
   become: true
-  become_user: "{{ retropi_user }}"
+  become_user: "{{ retropi_roms_user }}"
