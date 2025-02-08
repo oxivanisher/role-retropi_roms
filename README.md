@@ -1,5 +1,6 @@
 retropi_roms
 ============
+[![Ansible Lint](https://github.com/oxivanisher/role-retropi_roms/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/oxivanisher/role-retropi_roms/actions/workflows/ansible-lint.yml)
 
 This role copies rom files for RetroPi to the target Raspberry Pi.
 
