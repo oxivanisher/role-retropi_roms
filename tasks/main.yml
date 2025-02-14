@@ -1,8 +1,8 @@
 ---
 - name: Deploy game roms
   ansible.builtin.copy:
-    src: "{{ playbook_dir }}/files/retropi_roms/"
-    dest: "{{ retropi_roms_location }}"
+    src: "{{ retropi_roms_source_location }}"
+    dest: "{{ retropi_roms_target_location }}"
     owner: "{{ retropi_roms_user }}"
     group: "{{ retropi_roms_user }}"
     mode: "0644"
